@@ -4,7 +4,7 @@
     "slug": "Esaro",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/esaro.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.onashimwe.Esaro"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/esaro.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12c689a7-875b-4309-bef3-05b92ba07b34"
+      }
     }
   }
 }
