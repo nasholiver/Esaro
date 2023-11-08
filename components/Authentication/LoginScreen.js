@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     lineHeight: 23,
     letterSpacing: 0,
-    fontFamily: 'Poppins',
+    
   },
   title: {
     fontSize: 22,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     lineHeight: 33,
     letterSpacing: 0,
     color: '#000000',
-    fontFamily: 'Poppins',
+    
   },
   welcomesubtitle: {
     fontSize: 15,
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     lineHeight: 23,
     letterSpacing: 0,
-    fontFamily: 'Poppins',
+    
     textAlign: 'center',
   },
   input: {

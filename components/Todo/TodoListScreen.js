@@ -84,7 +84,7 @@ export default function TodoListScreen() {
         {todos ? (
           <FlatList
             data={todos}
-            keyExtractor={(item) => item.id.toString()}
+            keyExtractor={(item) => item.id}
             renderItem={({ item }) => (
               <TouchableOpacity onPress={() => handleUpdateTodo(item.id, !item.completed)}>
                 <View style={styles.taskCard}>

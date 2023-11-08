@@ -66,7 +66,7 @@ topImage : {
     fontWeight: 700,
     lineHeight: 33,
     letterSpacing: 0,
-    fontFamily: 'Poppins',
+    
     color: '#000000',
 
   },
@@ -77,7 +77,7 @@ topImage : {
     fontWeight: 600,
     lineHeight: 23,
     letterSpacing: 0,
-    fontFamily: 'Poppins',
+    
     textAlign: 'center',
 
   },

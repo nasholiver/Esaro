@@ -4,9 +4,10 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "pre": "expo prebuild"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.9",
@@ -18,7 +19,8 @@
     "react-native": "0.72.6",
     "react-redux": "^8.1.3",
     "react-native-web": "~0.19.6",
-    "@expo/webpack-config": "^19.0.0"
+    "@expo/webpack-config": "^19.0.0",
+    "expo-splash-screen": "~0.20.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

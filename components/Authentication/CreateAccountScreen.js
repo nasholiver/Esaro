@@ -1,6 +1,6 @@
 // CreateAccountScreen.js
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { createAccount } from '../../store/authSlice';
 import { useNavigation } from '@react-navigation/native';
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         lineHeight: 23,
         letterSpacing: 0,
-        fontFamily: 'Poppins',
+        
         },
 
     title: {
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
       lineHeight: 33,
       letterSpacing: 0,
       color: '#000000',
-      fontFamily: 'Poppins',
+      
     },
     welcomesubtitle: {
       fontSize: 15,
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
       fontWeight: '600',
       lineHeight: 23,
       letterSpacing: 0,
-      fontFamily: 'Poppins',
+      
       textAlign: 'center',
     },
  
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
       fontWeight: '600',
       lineHeight: 23,
       letterSpacing: 0,
-      fontFamily: 'Poppins',
+      
       textAlign: 'center',
     },
     input: {
